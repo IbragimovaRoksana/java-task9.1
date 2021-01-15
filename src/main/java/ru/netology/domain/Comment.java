@@ -5,12 +5,14 @@ import java.util.Date;
 public class Comment {
 
     int countOfComments;
-    int idCommentator;
-    String nameCommentator;
-    String referencePageAuthor;
+    Copyright authorComment;
     String textComment;
-    Date commentDate = new Date();
-    int quantityLikesComment;
-    int quantityRepostComment;
+    Date commentDate;
+    Like likeComment;
+    Repost repostComment;
+    boolean canPost;
+    boolean groupsCanPost;
+    boolean canClose;
+    boolean canOpen;
 
 }
